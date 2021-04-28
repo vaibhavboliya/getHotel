@@ -4,7 +4,7 @@ const indianCities = require('./indianCities')
 const { places, descriptors } = require('./seedHelpers');
 const Hotel = require('../models/hotel');
 
-mongoose.connect('mongodb://localhost:27017/get-hotel', {
+mongoose.connect( process.env.dbUrl, {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true
@@ -27,7 +27,8 @@ const seedDB = async () => {
         const price = Math.floor(Math.random() * 2000) + 10;
         const camp = new Hotel({
             //YOUR USER ID
-            author: '6088f81163b9bf52a80bb30d',
+            // author: '6088f81163b9bf52a80bb30d',
+            author: '60890a3295c0a4001566ddfd',
             starttime:'9am',
             endtime:'9pm',
             contact:9876543210,
