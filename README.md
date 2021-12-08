@@ -13,7 +13,7 @@ options for you.
 ![Material-UI](https://img.shields.io/badge/-Material%E2%80%93UI-0081CB?style=flat-square&logo=material-ui)
 ![Npm](https://img.shields.io/badge/-npm-CB3837?style=flat-square&logo=npm)
  
-###### you can check this project at [App Demo](https://get-hotel.herokuapp.com/) 
+###### you can check this project [HERE](https://get-hotel.herokuapp.com/) 
 #### Screenshots
 ![homepage](https://github.com/vaibhavboliya/getHotel/blob/main/screenshots/home%20page.png)
 
